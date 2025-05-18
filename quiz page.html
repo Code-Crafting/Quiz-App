@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
+</head>
+
+<body class="quiz-page-body">
+
+    <div class="main-container">
+
+        <div class="overlay">
+            <div class="dialog-box">
+                <h1>Time's Up!</h1>
+                <button class="dialog-box-button"> Next Question</button>
+            </div>
+        </div>
+
+
+        <header class="header">
+            <a href="index.html">
+                <img src="images/QuizTime.svg" class="quiz-logo" alt="logo">
+            </a>
+            <img src="images/🦆 icon _Volume Up_.svg" class="volume-btn" alt="volume on icon">
+            <i class="fa-solid fa-volume-xmark volume-off"></i>
+        </header>
+
+        <main>
+            <div class="question-number-con">
+                <div class="num-area"><span class="question-number">01</span>/25</div>
+            </div>
+
+            <div class="question-con">
+                <h4 class="question">Inside which HTML element do we put the JavaScript?</h4>
+            </div>
+
+            <div class="timer-div">
+                <div class="countdown">00:<span class="timer">30</span></div>
+            </div>
+
+            <div class="option-con">
+                <div class="options">
+                    <p class="option-a" id="option-text">&#60 js &#62</p>
+                    <img src="images/correct.svg" class="correct" alt="correct icon">
+                    <div class="incorrect-div">
+                        <p class="you-chose">You chose</p>
+                        <img src="images/wrong.svg" class="wrong" alt="correct icon">
+                    </div>
+                </div>
+                <div class="options">
+                    <p class="option-b" id="option-text">&#60 js &#62</p>
+                    <img src="images/correct.svg" class="correct" alt="correct icon">
+                    <div class="incorrect-div">
+                        <p class="you-chose">You chose</p>
+                        <img src="images/wrong.svg" class="wrong" alt="correct icon">
+                    </div>
+                </div>
+                <div class="options">
+                    <p class="option-c" id="option-text">&#60 js &#62</p>
+                    <img src="images/correct.svg" class="correct" alt="correct icon">
+                    <div class="incorrect-div">
+                        <p class="you-chose">You chose</p>
+                        <img src="images/wrong.svg" class="wrong" alt="correct icon">
+                    </div>
+                </div>
+                <div class="options">
+                    <p class="option-d" id="option-text">&#60 js &#62</p>
+                    <img src="images/correct.svg" class="correct" alt="correct icon">
+                    <div class="incorrect-div">
+                        <p class="you-chose">You chose</p>
+                        <img src="images/wrong.svg" class="wrong" alt="correct icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="nxt-page-txt">
+                <p class="nxt-page">Next &#62</p>
+            </div>
+
+            <div class="footer">
+                <p class="made-by">made with <span class="heart">❤</span> by Monojit Sen</p>
+            </div>
+        </main>
+    </div>
+
+    <div class="result-container">
+        <header class="result-header">
+            <img src="images/QuizTime.svg" alt="quiz logo" class="result-quix-logo">
+            <h4>Result</h4>
+        </header>
+
+        <div class="chart-div">
+            <div class="chart-con">
+                <p class="show-task-com"><span class="task-com">0</span>/25</p>
+                <canvas id="myChart" class="chart"></canvas>
+            </div>
+        </div>
+
+        <div class="retry-div">
+            <div class="h2">
+                <h2>"<span class="performace-status">Keep learning, you have a good score!</span>"</h2>
+            </div>
+            <a href="quiz page.html">
+                <button class="retry-btn">&#60 &#60 &#60 Retry</button>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p class="made-by">made with <span class="heart">❤</span> by Monojit Sen</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+
+</html>
