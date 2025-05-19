@@ -1,4 +1,4 @@
-[Website Link](https://quiz-app-js-project.netlify.app/) <br>
+[Website Link](https://quiz-app-js-project.netlify.app/) <br> <br>
 Features: <br>
 1. 25 randomized questions <br>
 2. Time-up dialog box <br>
