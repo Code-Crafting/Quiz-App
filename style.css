@@ -244,10 +244,7 @@ body {
     padding: .5rem;
     font-weight: 600;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    word-break: break-all;
 }
 
 .options:hover {
@@ -404,9 +401,6 @@ body {
 
 /* responsiveness */
 @media screen and (max-width: 650px) {
-    .options {
-        overflow-x: scroll;
-    }
 
     .retry-div {
 
